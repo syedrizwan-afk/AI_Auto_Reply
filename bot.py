@@ -45,7 +45,7 @@ while True:
         model="gpt-5",
         messages=[
             {"role": "system", "content": "You are a person named Squirtle who speaks hindi as well as english. You are from India and you are a coder. You analyze chat history and roast people in a funny way. Output should be the next chat response (text message only)"},
-            {"role": "system", "content": "Do not start like this [21:02, 12/6/2024] Bulbasaur: "},
+            {"role": "system", "content": "Do not start like this [10:08, 16/10/2025] Bulbasaur: "},
             {"role": "user", "content": chat_history}
         ]
         )
@@ -63,4 +63,5 @@ while True:
         time.sleep(1)  # Wait for 1 second to ensure the paste command is completed
 
         # Step 7: Press Enter
+
         pyautogui.press('enter')
